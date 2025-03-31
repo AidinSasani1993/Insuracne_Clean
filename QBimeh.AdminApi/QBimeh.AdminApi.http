@@ -1,0 +1,6 @@
+@QBimeh.AdminApi_HostAddress = http://localhost:5083
+
+GET {{QBimeh.AdminApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
