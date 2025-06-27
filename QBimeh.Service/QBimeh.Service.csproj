@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\QBimeh.Application\QBimeh.Application.csproj" />
+    <ProjectReference Include="..\QBimeh.Domain\QBimeh.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

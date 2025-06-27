@@ -1,20 +1,67 @@
 ﻿{
+  //"$schema": "https://json.schemastore.org/launchsettings.json",
+  //"profiles": {
+  //  "http": {
+  //    "commandName": "Project",
+  //    "dotnetRunMessages": true,
+  //    "launchBrowser": false,
+  //    "applicationUrl": "http://localhost:5083",
+  //    "environmentVariables": {
+  //      "ASPNETCORE_ENVIRONMENT": "Development"
+  //    }
+  //  },
+  //  "https": {
+  //    "commandName": "Project",
+  //    "dotnetRunMessages": true,
+  //    "launchBrowser": false,
+  //    "applicationUrl": "https://localhost:7092;http://localhost:5083",
+  //    "environmentVariables": {
+  //      "ASPNETCORE_ENVIRONMENT": "Development"
+  //    }
+  //  },
+  //  "QBimeh.WebApi": {
+  //    "commandName": "Project",
+  //    "dotnetRunMessages": true,
+  //    "launchBrowser": true,
+  //    "launchUrl": "swagger",
+  //    "applicationUrl": "https://localhost:5001;http://localhost:5000",
+  //    "environmentVariables": {
+  //      "ASPNETCORE_ENVIRONMENT": "Development"
+  //    }
+  //  },
+  //  "IIS Express": {
+  //    "commandName": "IISExpress",
+  //    "launchBrowser": true,
+  //    "launchUrl": "swagger",
+  //    "environmentVariables": {
+  //      "ASPNETCORE_ENVIRONMENT": "Development"
+  //    }
+  //  }
+  //}
   "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:31291",
+      "sslPort": 44358
+    }
+  },
   "profiles": {
-    "http": {
+    "Mehr.WebApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": false,
-      "applicationUrl": "http://localhost:5083",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "https": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": false,
-      "applicationUrl": "https://localhost:7092;http://localhost:5083",
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
